@@ -138,8 +138,8 @@ alci-dwm
 #alci-dwm-nemesis
 alci-calamares
 #alci-calamares-dev
-alci-calamares-config
-#alci-calamares-config-btrfs
+#alci-calamares-config
+alci-calamares-config-btrfs
 #alci-calamares-config-dev
 #alci-calamares-config-hardened
 #alci-calamares-config-lts
@@ -164,8 +164,8 @@ xorg-xrdb
 mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
-#networkmanager
-#network-manager-applet
+networkmanager
+network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -173,9 +173,9 @@ mkinitcpio-openswap
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
-#neofetch
+xorg-server
+xorg-apps
+neofetch
 
 
 ##### Drivers for graphical cards
@@ -186,13 +186,13 @@ mkinitcpio-openswap
 #to have fullscreen
 #virtualbox-guest-utils
 
-#xf86-video-intel
+xf86-video-intel
 #xf86-video-amdgpu
 #xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia
+nvidia-settings
+nvidia-utils
 
 
 
@@ -225,8 +225,8 @@ mkinitcpio-openswap
 ##### want to have a desktop
 
 #test
-#xfce4
-#xfce4-goodies
+xfce4
+xfce4-goodies
 #neofetch
 
 
@@ -240,8 +240,13 @@ mkinitcpio-openswap
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+archlinux-mirrorlist
+chaotic-mirrorlist
+blackarch-mirrorlist
+
+archlinux-keyring
+chaotic-keyring
+blackarch-keyring
 
 #test
 #xcursor-sweet
@@ -262,7 +267,14 @@ mkinitcpio-openswap
 #### want have a btrfs format
 #### use alci-calamares-config-btrfs 
 
-#timeshift
-#grub-btrfs
-#timeshift-autosnap
+timeshift
+grub-btrfs
+timeshift-autosnap
 git
+
+
+###fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
